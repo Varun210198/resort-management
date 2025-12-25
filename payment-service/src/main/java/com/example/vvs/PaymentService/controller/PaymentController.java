@@ -1,10 +1,10 @@
-package com.example.vvs.PaymentService.Controllers;
+package com.example.vvs.PaymentService.controller;
 
-import com.example.vvs.PaymentService.DTO.CreatePaymentRequest;
-import com.example.vvs.PaymentService.DTO.CreatePaymentResponse;
-import com.example.vvs.PaymentService.DTO.UpdatePaymentRequest;
-import com.example.vvs.PaymentService.Models.Payment;
-import com.example.vvs.PaymentService.Services.PaymentService;
+import com.example.vvs.PaymentService.dto.CreatePaymentRequest;
+import com.example.vvs.PaymentService.dto.CreatePaymentResponse;
+import com.example.vvs.PaymentService.dto.UpdatePaymentRequest;
+import com.example.vvs.PaymentService.model.Payment;
+import com.example.vvs.PaymentService.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

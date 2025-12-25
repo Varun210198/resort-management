@@ -1,4 +1,4 @@
-package com.example.vvs.NotificationService.Services;
+package com.example.vvs.NotificationService.service;
 
 import com.example.vvs.events.BookingEvent;
 import org.springframework.kafka.annotation.KafkaListener;

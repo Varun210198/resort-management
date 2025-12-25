@@ -1,4 +1,4 @@
-package com.example.vvs.NotificationService.Models;
+package com.example.vvs.NotificationService.model;
 
 public enum NotificationStatus {
     PENDING,

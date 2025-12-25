@@ -1,4 +1,4 @@
-package com.example.vvs.PaymentService.Models;
+package com.example.vvs.PaymentService.model;
 
 public enum PaymentMode {
     UPI,

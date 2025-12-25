@@ -1,4 +1,4 @@
-package com.example.vvs.NotificationService.Models;
+package com.example.vvs.NotificationService.model;
 
 import jakarta.persistence.*;
 import org.springframework.data.annotation.CreatedDate;

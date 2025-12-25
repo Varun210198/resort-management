@@ -1,4 +1,4 @@
-package com.example.vvs.PaymentService.Models;
+package com.example.vvs.PaymentService.model;
 
 import jakarta.persistence.*;
 import lombok.*;

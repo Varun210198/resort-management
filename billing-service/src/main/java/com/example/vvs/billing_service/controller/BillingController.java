@@ -1,6 +1,6 @@
-package com.example.vvs.billing_service.Controllers;
+package com.example.vvs.billing_service.controller;
 
-import com.example.vvs.billing_service.DTO.CalculatePriceRequest;
+import com.example.vvs.billing_service.dto.CalculatePriceRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

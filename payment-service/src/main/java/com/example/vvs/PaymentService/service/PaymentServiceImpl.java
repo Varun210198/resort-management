@@ -1,14 +1,14 @@
-package com.example.vvs.PaymentService.Services;
+package com.example.vvs.PaymentService.service;
 
-import com.example.vvs.PaymentService.Clients.BookingClient;
-import com.example.vvs.PaymentService.DTO.CreatePaymentRequest;
-import com.example.vvs.PaymentService.DTO.CreatePaymentResponse;
-import com.example.vvs.PaymentService.DTO.UpdatePaymentRequest;
-import com.example.vvs.PaymentService.DTO.PaymentUpdateToBookingService;
-import com.example.vvs.PaymentService.Exceptions.InvalidUpdatePaymentException;
-import com.example.vvs.PaymentService.Models.Payment;
-import com.example.vvs.PaymentService.Models.PaymentStatus;
-import com.example.vvs.PaymentService.Repositories.PaymentRepository;
+import com.example.vvs.PaymentService.client.BookingClient;
+import com.example.vvs.PaymentService.dto.CreatePaymentRequest;
+import com.example.vvs.PaymentService.dto.CreatePaymentResponse;
+import com.example.vvs.PaymentService.dto.UpdatePaymentRequest;
+import com.example.vvs.PaymentService.dto.PaymentUpdateToBookingService;
+import com.example.vvs.PaymentService.exception.InvalidUpdatePaymentException;
+import com.example.vvs.PaymentService.model.Payment;
+import com.example.vvs.PaymentService.model.PaymentStatus;
+import com.example.vvs.PaymentService.repository.PaymentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

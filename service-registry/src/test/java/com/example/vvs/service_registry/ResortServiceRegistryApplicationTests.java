@@ -1,4 +1,4 @@
-package com.example.vvs.resort_service_registry;
+package com.example.vvs.service_registry;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
