@@ -1,0 +1,20 @@
+# Maven
+target/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+
+# Environment files
+.env
+
+# Node (if frontend exists)
+node_modules/
+
+# Lombok
+.lombok
